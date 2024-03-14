@@ -1,0 +1,16 @@
+from tkinter import *
+window = Tk()
+window.geometry("500x600")
+window.title("CSE")
+lbl = Label(window, text="HelloWorld",font=("Arial Bold", 50))
+lbl.grid(column=0, row=0)
+window.mainloop()
+from tkinter import *
+window = Tk()
+window.geometry("300x300")
+window.title("CSE")
+lbl = Label(window, text="HelloWorld")
+lbl.grid(column=0, row=0)
+btn = Button(window, text="Click Me")
+btn.grid(column=1, row=0)
+window.mainloop()
